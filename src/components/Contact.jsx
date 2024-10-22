@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const Contact = () => {
     const [name, setName] = useState('');
     const [contact, setContact] = useState('');
+    const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [serviceType, setServiceType] = useState('');  // New state for the selected service type
     const [contactMethod, setContactMethod] = useState('');
