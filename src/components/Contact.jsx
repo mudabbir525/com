@@ -5,6 +5,7 @@ const Contact = () => {
     const [contact, setContact] = useState('');
     const [message, setMessage] = useState('');
     const [serviceType, setServiceType] = useState('');  // New state for the selected service type
+    const [contactMethod, setContactMethod] = useState('');
 
     const handleWhatsAppSubmit = (e) => {
         e.preventDefault();
