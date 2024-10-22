@@ -47,7 +47,7 @@ const Hero = ({ setCurrentComponent }) =>{
                             initial="hidden"
                             animate="visible"
                             transition={{ duration: 0.5 }}
-                            className="mt-4 inline-block rounded bg-purple-700 px-4 py-2 text-white transition-transform transform hover:scale-105"
+                            className="mt-4 mb-5 inline-block rounded bg-purple-700 px-4 py-2 text-white transition-transform transform hover:scale-105"
                         >
                             Get Started
                         </motion.button>
