@@ -1,5 +1,7 @@
 import React from "react";
 import { FaLinkedin } from 'react-icons/fa';
+import Mudabbir from '../assets/11.jpeg';
+import Siddesh from '../assets/22.jpeg';
 
 const TeamMember = ({ name, role, expertise, image, socialLinks }) => (
   <div className="team-member text-center hover:shadow-lg hover:shadow-gray-500/50 bg-gradient-to-b from-[#00071c] to-[#000000] rounded-lg p-4 m-4 shadow-lg hover:shadow-2xl transition-shadow duration-300">
@@ -33,21 +35,21 @@ const Team = () => {
       name: "Mudabbir Pasha",
       role: "CEO & Founder",
       expertise: "Full Stack Development, MERN Stack",
-      image: "../assets/11.jpeg", // Your image path
+      image: Mudabbir, 
       socialLinks: [
-        { url: "https://www.linkedin.com/in/mohammed-mudabbir-pasha/", icon: <FaLinkedin size={24} color="#ffffff" /> }, // White LinkedIn icon
+        { url: "https://www.linkedin.com/in/mohammed-mudabbir-pasha/", icon: <FaLinkedin size={24} color="#ffffff" /> }, 
       ],
     },
     {
       name: "Siddesh",
       role: "Co-Founder",
       expertise: "Full Stack Development, MERN Stack",
-      image: "../assets/22.jpeg", // Siddesh's image path
+      image: Siddesh, 
       socialLinks: [
-        { url: "https://www.linkedin.com/in/siddesh7077/", icon: <FaLinkedin size={24} color="#ffffff" /> }, // White LinkedIn icon
+        { url: "https://www.linkedin.com/in/siddesh7077/", icon: <FaLinkedin size={24} color="#ffffff" /> },
       ],
     },
-    // Add more team members up to 20
+    
   ];
 
   return (
