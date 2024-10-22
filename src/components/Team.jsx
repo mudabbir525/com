@@ -33,7 +33,7 @@ const Team = () => {
       name: "Mudabbir Pasha",
       role: "CEO & Founder",
       expertise: "Full Stack Development, MERN Stack",
-      image: "src/assets/11.jpeg", // Your image path
+      image: "../assets/11.jpeg", // Your image path
       socialLinks: [
         { url: "https://www.linkedin.com/in/mohammed-mudabbir-pasha/", icon: <FaLinkedin size={24} color="#ffffff" /> }, // White LinkedIn icon
       ],
@@ -42,7 +42,7 @@ const Team = () => {
       name: "Siddesh",
       role: "Co-Founder",
       expertise: "Full Stack Development, MERN Stack",
-      image: "src/assets/22.jpeg", // Siddesh's image path
+      image: "../assets/22.jpeg", // Siddesh's image path
       socialLinks: [
         { url: "https://www.linkedin.com/in/siddesh7077/", icon: <FaLinkedin size={24} color="#ffffff" /> }, // White LinkedIn icon
       ],
