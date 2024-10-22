@@ -13,6 +13,7 @@ const Contact = () => {
         const whatsappUrl = `https://api.whatsapp.com/send?phone=+918328497607&text=
             Name: ${encodeURIComponent(name)}
             %0AContact Number: ${encodeURIComponent(contact)}
+            %0APreferred Contact Method: ${encodeURIComponent(contactMethod)}
             %0AService Requested: ${encodeURIComponent(serviceType)}
             %0AMessage: ${encodeURIComponent(message)}`;
 
