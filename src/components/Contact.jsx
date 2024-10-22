@@ -14,6 +14,7 @@ const Contact = () => {
         const whatsappUrl = `https://api.whatsapp.com/send?phone=+918328497607&text=
             Name: ${encodeURIComponent(name)}
             %0AContact Number: ${encodeURIComponent(contact)}
+            %0AEmail: ${encodeURIComponent(email)}
             %0APreferred Contact Method: ${encodeURIComponent(contactMethod)}
             %0AService Requested: ${encodeURIComponent(serviceType)}
             %0AMessage: ${encodeURIComponent(message)}`;
@@ -28,6 +29,7 @@ const Contact = () => {
         const mailtoUrl = `mailto:sohailmudabbir@gmail.com?subject=Client%20Service%20Request&body=
             Name: ${encodeURIComponent(name)}
             %0AContact Number: ${encodeURIComponent(contact)}
+            %0AEmail: ${encodeURIComponent(email)}
             %0APreferred Contact Method: ${encodeURIComponent(contactMethod)}
             %0AService Requested: ${encodeURIComponent(serviceType)}
             %0AMessage: ${encodeURIComponent(message)}`;
