@@ -1,10 +1,4 @@
-import todo from   "../assets/projects/todo.png";
 import labneh from "../assets/projects/labneh.png";
-import portfolio from  "../assets/projects/portfolio.png";
-import Spotify from  "../assets/projects/spotify.png";
-import bsm from  "../assets/projects/bsm.png";
-import simonsays from  "../assets/projects/simonsays.png";
-import safety from  "../assets/projects/safe.png";
 import marichi from  "../assets/projects/marichi.png";
 
 
@@ -32,22 +26,6 @@ export const PROJECTS = [
       "developed and enhanced the company website with frontend and backend support for seamless functionality.",
     technologies: ["API's", "TailWindCSS", "ReactJS", "MERN Stack"],
     link:"https://marichiventures.com/",
-  },
-
-  {
-    title: "Portfolio Website",
-    image: portfolio,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "TailWindCSS", "React", "JavaScript"],
-  },
-  
-  {
-    title: "PowerBi Spotify Dashboard",
-    image: Spotify ,
-    description:
-      "A Concise dashboard consisting of all the songs on Spotify using SpotifyAPI and integrated with different DAX functionalities. ",
-    technologies: ["HTML", "Data Science", "Data Analytics", "Python", "PowerBi"],
   },
 
   
