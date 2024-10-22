@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index"; 
-import Profile from '../icon.png'; // change it
+import Profile from '../mylogo.png'; // change it
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
