@@ -34,7 +34,7 @@ export const PROJECTS = [
     description:
       "developed a basic Website for a Church - frontend.",
     technologies: ["HTML", "CSS", "Javascript"],
-    link:"https://marichiventures.com/",
+    link:"https://mudabbir525.github.io/Church/",
   },
 
   
