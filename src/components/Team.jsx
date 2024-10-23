@@ -34,7 +34,7 @@ const Team = () => {
     {
       name: "Mudabbir Pasha",
       role: "CEO & Founder",
-      expertise: "Full Stack Development, MERN Stack",
+      expertise: "Full Stack Developer",
       image: Mudabbir, 
       socialLinks: [
         { url: "https://www.linkedin.com/in/mohammed-mudabbir-pasha/", icon: <FaLinkedin size={24} color="#ffffff" /> }, 
@@ -43,7 +43,7 @@ const Team = () => {
     {
       name: "Siddesh",
       role: "Co-Founder",
-      expertise: "Full Stack Development, MERN Stack",
+      expertise: "Full Stack Developer",
       image: Siddesh, 
       socialLinks: [
         { url: "https://www.linkedin.com/in/siddesh7077/", icon: <FaLinkedin size={24} color="#ffffff" /> },
