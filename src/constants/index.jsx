@@ -1,5 +1,6 @@
 import labneh from "../assets/projects/labneh.png";
 import marichi from  "../assets/projects/marichi.png";
+import church from "../assets/projects/church.png";
 
 
 
@@ -25,6 +26,14 @@ export const PROJECTS = [
     description:
       "developed and enhanced the company website with frontend and backend support for seamless functionality.",
     technologies: ["API's", "TailWindCSS", "ReactJS", "MERN Stack"],
+    link:"https://marichiventures.com/",
+  },
+{
+    title: "church Website",
+    image: church,
+    description:
+      "developed a basic Website for a Church - frontend.",
+    technologies: ["HTML", "CSS", "Javascript"],
     link:"https://marichiventures.com/",
   },
 
