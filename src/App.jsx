@@ -5,7 +5,7 @@ import { OrbitControls, Sphere } from '@react-three/drei';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Technologies from './components/Technologies';
+import Technologies from './components/Technologies';   
 import { motion } from 'framer-motion';
 import Services from './components/Services';
 import Projects from './components/Projects';
