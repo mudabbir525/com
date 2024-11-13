@@ -1,5 +1,6 @@
 import labneh from "../assets/projects/labneh.png";
 import marichi from  "../assets/projects/marichi.png";
+import marichi from  "../assets/projects/suhas.png";
 import church from "../assets/church.png";
 
 
@@ -13,7 +14,7 @@ export const HERO_CONTENT = "At WebHostDevs, we specialize in creating stunning 
 export const PROJECTS = [
   {
     title: "Suhas Constructions",
-    image: assets/suhas.png,
+    image: suhas,
     description:
       "Developed a modern, interactive construction company website with 3D visualizations and responsive design.",
     technologies: ["ReactJS", "ThreeJS", "Lucide", "TailwindCSS"],
