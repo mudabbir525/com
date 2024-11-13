@@ -1,6 +1,6 @@
 import labneh from "../assets/projects/labneh.png";
 import marichi from  "../assets/projects/marichi.png";
-import marichi from  "../assets/projects/suhas.png";
+import suhas from  "../assets/projects/suhas.png";
 import church from "../assets/church.png";
 
 
