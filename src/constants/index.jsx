@@ -12,32 +12,45 @@ export const HERO_CONTENT = "At WebHostDevs, we specialize in creating stunning 
 
 export const PROJECTS = [
   {
+    title: "Suhas Constructions",
+    image: assets/suhas.png,
+    description:
+      "Developed a modern, interactive construction company website with 3D visualizations and responsive design.",
+    technologies: ["ReactJS", "ThreeJS", "Lucide", "TailwindCSS"],
+    link: "https://suhas-constructions.vercel.app/", // Add the actual link when available
+  },
+  {
+    title: "Book My Cater",
+    image: "under-development",
+    description:
+      "A comprehensive catering service platform with user authentication, booking management, and responsive interface.",
+    technologies: ["ReactJS", "TailwindCSS", "PHP", "MySQL", "Auth0"],
+    link: "", // Add the actual link when available
+  },
+  {
     title: "Labneh Restaurant Site",
     image: labneh,
     description:
       "Created a responsive website for Labneh using ReactJS, Bootstrap, and APIs, developed as a freelance project.",
-    technologies: ["HTML", "CSS", "ReactJs",],
+    technologies: ["HTML", "CSS", "ReactJs"],
     link: "http://labneh.in/",
   },
-
   {
     title: "Marichi Ventures Website",
     image: marichi,
     description:
       "developed and enhanced the company website with frontend and backend support for seamless functionality.",
     technologies: ["API's", "TailWindCSS", "ReactJS", "MERN Stack"],
-    link:"https://marichiventures.com/",
+    link: "https://marichiventures.com/",
   },
-{
+  {
     title: "church Website",
     image: church,
     description:
       "developed a basic Website for a Church - frontend.",
     technologies: ["HTML", "CSS", "Javascript"],
-    link:"https://mudabbir525.github.io/Church/",
+    link: "https://mudabbir525.github.io/Church/",
   },
-
-  
 ];
 
 export const CONTACT = {
